@@ -1,2 +1,57 @@
 <!-- your html code here -->
-<p>Hello, I'm contact.html</p>
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+   
+    <!-- Bootstrap CDN icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+   
+    <link href="style.css" rel="stylesheet" type="text/css">
+
+    <title>Contact</title>
+</head>
+<body>
+    <div class="container-fluid" id="cajaGrande">
+	    <div class="container-fluid" id="textoContacto">
+        <div>
+          <h2 id="h2Contact">Contact</h2>
+        </div>
+        <div>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Explicabo tempora quam placeat ad quia
+          reprehenderit deserunt ea harum, fuga recusandae? Sunt non dolorum voluptas cumque, architecto
+          modi doloribus ab sint!</p>
+        </div>
+      </div>
+
+      <div class="container-fluid" id="cajaContacto">
+        <form id="cajaForm">
+          <div class="row p-1">
+            <div class="col-sm-3">
+              <label for="cajaEmail" class="for-label" id="labelEmail">Your E-mail</label>
+            </div>
+            <div class="col-sm-9">
+              <input type="email" class="form-control" id="cajaEmail" placeholder="E-mail">
+            </div>
+          </div>
+          <div class="row p-1">
+            <div class="col-sm-3">
+              <label for="cajaTexto" class="form-label" id="labelTexto">Your message</label>
+            </div>
+            <div class="col-sm-9">
+              <textarea class="form-control" id="cajaTexto" rows="4">Please, enter your message here</textarea>
+            </div>
+          </div>    
+          <div class="d-grid d-sm-flex justify-content-sm-end p-2" id="buttonCaja">
+            <button class="btn btn-primary" type="button">Submit</button>
+          </div>    
+        </form>
+      </div>
+    </div>
+</body>
+</html>

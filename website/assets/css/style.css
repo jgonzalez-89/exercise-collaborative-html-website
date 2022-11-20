@@ -1,3 +1,103 @@
 body{
     background: #BDBDBD;
 }
+
+/*------CSS para Services *********/
+#containerServices{
+    display: flex;
+	width: 100%;
+}
+
+#imgDiv{
+    width: 20%;
+    height: 100%;
+    margin-left: 40px;
+}
+
+#imgService{
+    margin: 50px;
+    margin-left: 0;
+    margin-right: 0;
+    width:15vw;
+    border-radius: 50vw;
+}
+
+.cajaTextoService{
+    width: 100%;
+    padding: 40px;
+    padding-left: 0;
+    height: 100%;
+}
+#cabecera{
+    display: flex;
+}
+
+#textSize{
+    font-size: 3vw;
+}
+
+.colorGris{
+    color: gray;  
+}
+
+.texto{
+    line-height: 120%;
+    font-size: 1vw;
+}
+
+/*------CSS para Contact---------*/
+#cajaGrande{
+    width: 95%;
+ }
+ 
+ 
+ #textoContacto{
+    padding-top: 1%;
+    padding-left: 5%;
+    padding-right: 5%;  
+    width: 90%;
+    font-size: 1.4vw;
+ }
+ 
+ #h2Contact {
+    font-size: 2vw;
+    font-weight: bold;
+ }
+ 
+ #cajaContacto{
+    width: 65%;
+ }
+ 
+ #cajaForm{
+    margin-left: 5%;
+    margin-right: 15%;
+    border-style: ridge;
+    padding-right: 2%;
+    padding-top: 2%;
+    background-color: #f4f4f4;
+    border-radius: 4px;
+ }
+ 
+ #labelEmail{
+    display: flex;
+    justify-content: end;
+    font-weight: bold;
+    font-size: 1.1vw;
+    padding-top: 8px;
+ }
+ 
+ #labelTexto{
+    display: flex;
+    justify-content: end;
+    font-weight: bold;
+    font-size: 1.1vw;
+ }
+ 
+ #cajaTexto{
+    color:rgb(128, 128, 128);
+ }
+ 
+ #buttonCaja{
+    margin-bottom: 5px;
+ }
+ 

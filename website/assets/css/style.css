@@ -3,6 +3,10 @@ body{
     background: #BDBDBD;
 }
 
+.navbar {
+    position: relative;
+     z-index: 1000;
+}
 
 /*------CSS para Services *********/
 #containerServices{

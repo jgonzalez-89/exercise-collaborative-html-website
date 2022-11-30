@@ -1,3 +1,13 @@
-body{
-    background: #BDBDBD;
+
+.img-responsive {
+    padding: 10%;
+    width:400px;
+    height:400px;
+    border-radius: 50vw;
+}
+
+.serviceImg {
+    padding: 5%;
+    width:500px;
+    height:300px;
 }
